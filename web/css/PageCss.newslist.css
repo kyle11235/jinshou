@@ -1495,7 +1495,6 @@ background:none;background-color:rgba(0,0,0,0);
 }
 #module_8833613 .BodyCenter.BodyCenter8833613 {
 background-color:transparent;
-background-image:url(../images/20171017151114545245.png);
 background-repeat:no-repeat;
 background-position:50% 50%;
 background-Attachment:scroll;
@@ -2194,7 +2193,6 @@ background:none;background-color:rgba(0,0,0,0);
 }
 #module_8820780 .BodyCenter.BodyCenter8820780 {
 background-color:transparent;
-background-image:url(../images/20171017151114545245.png);
 background-repeat:no-repeat;
 background-position:50% 50%;
 background-Attachment:scroll;
@@ -2294,7 +2292,7 @@ margin-bottom:0px;
 .ModuleNewsListGiant.layout-107 .news-container{ width: 100%; margin: 0 auto; }
 .ModuleNewsListGiant.layout-107 .news-time{ width: 10%; float: left;}
 .ModuleNewsListGiant.layout-107 .news-item .news-icon { position: relative;  width: 35px;  height: 35px;  border: 1px solid transparent;  background-color: transparent;  -webkit-transition: all .3s;  transition: all .3s;  top: -10px;  }
-.ModuleNewsListGiant.layout-107 .news-item .news-icon span {  position: absolute;  top: 9px;  left: 9px;  width: 14px;  height: 15px;  background: url("../images/icon.png") no-repeat center;  }
+.ModuleNewsListGiant.layout-107 .news-item .news-icon span {  position: absolute;  top: 9px;  left: 9px;  width: 14px;  height: 15px;   }
 .ModuleNewsListGiant.layout-107 .news-item .news-con .news-title{ padding-bottom: 14px; -webkit-transition: all .3s;  transition: all .3s; color: #666;}
 .ModuleNewsListGiant.layout-107 .news-con { width: 70%;padding-left:10px; margin-top: 19px; -webkit-transition: all .3s;  transition: all .3s;float: left;}
 .ModuleNewsListGiant.layout-107 .news-img{ width: 20%;float: left; height: 140px; overflow: hidden;}
@@ -2305,7 +2303,6 @@ margin-bottom:0px;
 .ModuleNewsListGiant.layout-107 .news-item{ padding: 14px 10px;clear: both;}
 .ModuleNewsListGiant.layout-107 .news-item:nth-last-child{ border-bottom:none!important;}
 .ModuleNewsListGiant.layout-107 .news-item:hover .news-icon{background: #014352;}
-.ModuleNewsListGiant.layout-107 .news-item:hover .news-icon span{ background: url("../images/icon.png") no-repeat center;}
 @media only screen and (max-width: 479px){
   .ModuleNewsListGiant.layout-107 .news-container{ width: 96%; margin: 0 auto; }
   .ModuleNewsListGiant.layout-107 .news-item {  padding: 14px 0;

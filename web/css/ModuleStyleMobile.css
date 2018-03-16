@@ -2125,8 +2125,7 @@ h6 {font-size: 12px;}
 .flexs{ display: flex;  flex-wrap: wrap;  align-content: flex-start;}
 .swiper-butto-next{ position: absolute;top: 50%;width: 27px;height: 44px;z-index: 10;cursor: pointer;    transform: translate(0 ,-50%);}
 .swiper-butto-prev{ position: absolute;top: 50%;width: 27px;height: 44px;z-index: 10;cursor: pointer;    transform: translate(0 ,-50%);}
-.swiper-butto-next{background-image: url(/images/pre.png);left:0;right: auto;}
-.swiper-butto-prev{background-image: url(/images/next.png);right: 0; left: auto;}
+
 /* end of 新版本通用样式*/
 
 @font-face {font-family: "iconfont";

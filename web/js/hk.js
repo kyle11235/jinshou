@@ -124,25 +124,19 @@ hk.iScroll.prototype = {
                 }
             }
             that.minPostion = -(childHeight-parentHeight);
-            console.log("that.currPostion:" + that.currPostion);
-            console.log("that.maxPostion:" + that.maxPostion);
-            console.log("that.movePostion:" + that.movePostion);
             if((that.currPostion-that.movePostion) > that.maxPostion){
-                console.log("向上：" + (that.currPostion-that.movePostion));
                 that.currPostion = that.maxPostion;
                 that._addTransition();
                 that._changeTranslate(that.currPostion);
             }
             /*想上滑动的时候*/
             else if((that.currPostion-that.movePostion) < that.minPostion){
-                console.log("向下：" + (that.currPostion-that.movePostion));
                 that.currPostion = that.minPostion;
                 that._addTransition();
                 that._changeTranslate(that.currPostion);
             }
             /*正常的情况*/
             else{
-                console.log("其它：" + (that.currPostion-that.movePostion));
                 that.currPostion = that.currPostion-that.movePostion;
             }
             that._reset();
